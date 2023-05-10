@@ -1,0 +1,32 @@
+html {
+    background-color: rgb(164, 164, 243);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+body {
+    background-color: rgb(217, 243, 246); /* orange- #feb45f */
+    width: 900px;
+    margin: 0 auto;
+    border: 5px double black; /* border-radius */
+    padding: 0px 20px 20px 20px;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 60px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+p, li {
+    /* display: inline; */
+    font-size: 24px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+.bold {
+    font-weight: bold;
+    color: rgb(47, 154, 255);
+}
+
+
+
