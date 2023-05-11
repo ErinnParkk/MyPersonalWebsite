@@ -1,7 +1,8 @@
 html {
     background-color: rgb(164, 164, 243);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: "Baskervville", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+
 body {
     background-color: rgb(217, 243, 246); /* orange- #feb45f */
     width: 900px;
@@ -17,12 +18,30 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
+img {
+    display: block;
+    width: 30%;
+    margin: 20px auto;
+    /* display: none; */ 
+    /* width: 70% */
+    /* margin: 20px auto; */
+}
+
+.coolbox {
+    border: mediumseagreen dotted 3px;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 10px;
+    background-color: beige;
+}
+
 p, li {
     /* display: inline; */
     font-size: 24px;
     line-height: 2;
     letter-spacing: 1px;
 }
+
 .bold {
     font-weight: bold;
     color: rgb(47, 154, 255);
